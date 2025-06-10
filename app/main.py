@@ -1,2 +1,5 @@
 def count_occurrences(phrase: str, letter: str) -> int:
-        return phrase.lower().count(letter.lower())
+        phrase_lover = phrase.lower()
+        counter = phrase_lover.count(letter.lower())
+        return counter
+#print(count_occurrences("Samsung is gnusmas", "s"))
